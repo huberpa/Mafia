@@ -8,8 +8,8 @@
 
     <div layout-align="center center" flex="100" layout="row">
         <section layout="row" layout-sm="column" flex="50" layout-wrap layout-align="center center">
-            <div ng-repeat="users in userList" layout-align="center center" flex="50" ng-repeat="quote in randomQuote">
-            <md-list-item class="md-2-line" layout-align="center center">
+            <div ng-repeat="users in userList" layout="row" layout-align="center center" flex="50" ng-repeat="quote in randomQuote">
+            <md-list-item class="md-2-line" layout="row" layout-align="center center">
                 <img ng-src="https://s-media-cache-ak0.pinimg.com/736x/0e/3d/f6/0e3df60cabeec611be2872b82db57458.jpg" class="md-avatar" alt="{{users.name}}" />
                 <div class="md-list-item-text">
                     <h3>{{ users.name }}</h3>
